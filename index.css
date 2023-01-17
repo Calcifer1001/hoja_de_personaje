@@ -1,0 +1,10 @@
+.col {
+    float: left;
+    width: 50%;
+}
+  
+/* Clear floats after the columns */
+.row {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
